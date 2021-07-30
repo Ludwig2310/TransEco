@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+	background-color: #E6E6E6;
+}
+
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:60px;
+	background-color:white;
+	box-shadow: 2px 2px 2px 1px rgba(173, 173, 173, 0.7);
+}
+
+.header img{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.corps{
+	position:absolute;
+	top:150px;
+	left:10%;
+	right:10%
+}
+
+.corps h1{
+	color:#9BEB7D
+}
+
+.p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn{
+	padding:10px;
+	background-color:#9BEB7D;
+	border-radius:15px;
+	width:200px;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	cursor:pointer;
+}
+
+.titlepage2{
+	margin-top:50px;
+}
+
+.searchbar{
+	display:block;
+	width:100%;
+	background-color:white;
+	height:60px;
+	border-radius:30px;
+	box-shadow: 2px 2px 2px 1px rgba(173, 173, 173, 0.7);
+}
+
+.searchbar img{
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+.input{
+	margin-top:15px;
+	margin-left:20px;
+	width:300px;
+	float:left;
+	height:35px;
+	border:0px solid black;
+	border-bottom:2px solid #E6E6E6;
+	font-size:20px
+}
+
+.inputsearch{
+	margin-top:12px;
+	margin-left:20px;
+	width:100px;
+	float:left;
+	height:35px;
+	border:1px solid #E6E6E6;
+	border-radius:20px;
+	padding-left:10px;
+	font-size:20px
+}
+
+.inputSUBMIT{
+	margin-top:12px;
+	margin-left:20px;
+	width:120px;
+	float:left;
+	height:35px;
+	border:0px solid black;
+	border-radius:20px;
+	cursor:pointer;
+	background-color:#9BEB7D;
+	color:white;
+}
+
+.searchbar span{
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+.jour{
+	float:left;
+	width:125px;
+	height:100px;
+	background-color:white;
+	border-radius:10px;
+	margin:10px;
+	cursor:pointer;
+	box-shadow: 2px 2px 2px 1px rgba(173, 173, 173, 0.7);
+}
+
+.jour h3{
+	text-align:center;
+}
+
+.jour p{
+	text-align:center;
+}
+
+.jourdisabled{
+	float:left;
+	width:125px;
+	height:100px;
+	background-color:white;
+	border-radius:10px;
+	margin:10px;
+	box-shadow: 2px 2px 2px 1px rgba(173, 173, 173, 0.7);
+	opacity:0.5;
+	cursor: not-allowed;
+}
+
+.jourdisabled h3{
+	text-align:center;
+}
+
+.jourdisabled p{
+	text-align:center;
+}
